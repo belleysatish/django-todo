@@ -8,20 +8,19 @@ Kubernetes (e.g., Minikube, GKE, EKS, AKS)
 kubectl command-line tool
 Docker Setup
 Build and Run with Docker
-Clone the repository:
 
-bash
-Copy code
+Clone the repository:
 git clone https://github.com/belleysatish/django-todo.git
 cd django-todo
-Build the Docker image:
 
-bash
-Copy code
+
+Build the Docker image:
 docker build -t todo-app .
+
 Run the Docker container:
 
-bash
-Copy code
 docker run -p 8000:8000 todo-app
+
+to manage kubernetes , go thorugh the cloud deployments repo https://github.com/belleysatish/cloud-deployments.git
+
 Access the application at http://localhost:8000/.
